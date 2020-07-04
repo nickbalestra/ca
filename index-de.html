@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Affittasi a Muralto (Locarno) attico design completamente arredato. A soli 5 minuti a piedi dal lago e dalla Stazione di Locarno
+Attico arredato, ristrutturato nel 2016. Abitazione esclusiva, duplex, con giardino e
+Box auto a disposizione.">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>ATTICO IN AFFITTO</title>
+    <meta property="og:url" content="http://casainaffitto.ch/muralto/attico-design">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://casainaffitto.ch/muralto/attico-design/assets/img/1.jpg">
+    <meta property="og:title" content="Affittasi a Muralto (Locarno) Attico Design Arredato.">
+<meta property="og:description" content="Affittasi a Muralto (Locarno) Attico Design Arredato. A soli 5 minuti a piedi dal lago e dalla Stazione di Locarno Attico Design Arredato, ristrutturato nel 2016. Abitazione esclusiva, duplex, con giardino e Box auto a disposizione.">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
+     <link href="assets/css/ekko-lightbox.min.css" rel="stylesheet">
+    <link href="assets/css/dark.css" rel="stylesheet">
+
+
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+       <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <script>
+var map;
+var center = new google.maps.LatLng(46.172045, 8.801497);
+var casa = new google.maps.LatLng(46.175384, 8.808073);
+
+var MY_MAPTYPE_ID = 'custom_style';
+
+function initialize() {
+
+  var featureOpts = [
+    {
+      stylers: [
+        { hue: '#890000' },
+        { visibility: 'simplified' },
+        { gamma: 0.5 },
+        { weight: 0.5 }
+      ]
+    },
+    {
+      elementType: 'labels',
+      stylers: [
+        { visibility: 'off' }
+      ]
+    },
+    {
+      featureType: 'water',
+      stylers: [
+        { color: '#890000' }
+      ]
+    }
+  ];
+
+  var mapOptions = {
+    zoom: 14,
+    center: casa,
+    scrollwheel: false,
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP]
+    },
+
+
+  };
+
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+
+
+  marker = new google.maps.Marker({
+    map:map,
+    draggable:false,
+    animation: google.maps.Animation.DROP,
+    position: casa
+  });
+  //google.maps.event.addListener(marker, 'click', toggleBounce);
+
+
+}
+
+function toggleBounce() {
+
+  if (marker.getAnimation() != null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+
+  <body>
+   <div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=600332020042645&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right" style="margin-top: 10px;">
+         <a class="btn btn-small btn-language" href="./index.html">Versione Italiano</a>
+        </ul>
+        <h3 class="text-muted">Affittasi</h3>
+      </div>
+
+      <div class="jumbotron" style="background-color: #fff">
+        <h1>Stupendo Attico Design completamente arredato<br />Standard superiore<br />Vista lago</h1><h2>Muralto (Locarno)</h2>
+        <p class="lead">A soli 5 minuti a piedi dal lago e dal centro di Locarno
+<br>Stupendo attico design completamente ammobilitato. Ristrutturato nel 2016.<br />
+Abitazione esclusiva, duplex, con giardino e
+<br>Box auto incluso.
+</p>
+        <p><a class="btn btn-lg btn-primary" href="#" id="link" role="button">3'100 CHF/Mese<span style="font-weight:100"> + Spese</span></a></p>
+      </div>
+
+      <div class="row marketing gallery">
+        <div class="col-sm-3">
+
+          <a href="assets/img/15.jpg" data-toggle="lightbox" data-title="Esterno" data-footer="Facciata dell’ entrata, lato Est" class="thumbnail" data-gallery="images"  data-parent=".gallery">
+                                <img src="assets/img/15.jpg" alt="...">
+                            </a>
+
+
+
+
+
+
+
+
+           <a href="assets/img/5.jpg" data-toggle="lightbox" data-title="Entrata" data-footer="il pavimento in legno-ceramica con il granito della scala" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/5.jpg" alt="...">
+    </a>
+      <a href="assets/img/9.jpg" data-toggle="lightbox" data-title="Cucina" data-footer="La zona lavastoviglie e lavello" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/9.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/7.jpg" data-toggle="lightbox" data-title="Cucina" data-footer="Il piano di lavoro e di cuttura" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/7.jpg" alt="...">
+    </a>
+
+    <!-- <a href="assets/img/20.jpg" data-toggle="lightbox" data-title="Primo piano" data-footer="Le due stanze, collegate dal terrazzo" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/20.jpg" alt="...">
+    </a> -->
+        </div>
+
+
+
+        <div class="col-sm-3">
+ <a href="assets/img/2.jpg" data-toggle="lightbox" data-title="Esterno" data-footer="Entrata, statua dell artista Giorgio Scarmi" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/2.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/6.jpg" data-toggle="lightbox" data-title="Entrata" data-footer="L’arminia della scala, spazi e forma
+" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/6.jpg" alt="...">
+    </a>
+      <a href="assets/img/10.jpg" data-toggle="lightbox" data-title="Cucina" data-footer="Dettaglio dei due forni (micro-onde sopra e pirolitico sotto)" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/10.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/14.jpg" data-toggle="lightbox" data-title="Primo piano" data-footer="Dettaglio del ballatoio in stile" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/14.jpg" alt="...">
+    </a>
+
+    <!-- <a href="assets/img/18.jpg" data-toggle="lightbox" data-title="Primo piano" data-footer="Le stanze, con i pavimenti nuovi posati a correre" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/18.jpg" alt="...">
+    </a> -->
+
+
+
+        </div>
+
+
+      <div class="col-sm-3">
+         <a href="assets/img/3.jpg" data-toggle="lightbox" data-title="Esterno" data-footer="Il giardino, lato Sud
+" class="thumbnail" data-gallery="images" data-parent=".gallery">
+     <img src="assets/img/3.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/13.jpg" data-toggle="lightbox" data-title="Entrata" data-footer="Luce e scala
+" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/13.jpg" alt="...">
+    </a>
+      <a href="assets/img/11.jpg" data-toggle="lightbox" data-title="Cucina e Salone Open Space" data-footer="Pavimento interamente in petra di granito dell’Onsernone
+" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/11.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/17.jpg" data-toggle="lightbox" data-title="Primo piano" data-footer="Il ballatoio con il contrasto del bagno in stile." class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/17.jpg" alt="...">
+    </a>
+
+   <!--  <a href="assets/img/19.jpg" data-toggle="lightbox" data-title="Primo piano" data-footer="La seconda camera" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/19.jpg" alt="...">
+    </a>
+ -->
+
+
+        </div>
+        <div class="col-sm-3">
+           <a href="assets/img/4.jpg" data-toggle="lightbox" data-title="Esterno" data-footer="Il balcone tipico ticinese, lato Owest" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/4.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/8.jpg" data-toggle="lightbox" data-title="Cucina" data-footer="Il piano di lavoro a sinistra, forni e frigo a destra
+" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/8.jpg" alt="...">
+    </a>
+      <a href="assets/img/12.jpg" data-toggle="lightbox" data-title="Dettaglio" data-footer="Completamente immersa nel verde" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/12.jpg" alt="...">
+    </a>
+
+
+          <a href="assets/img/16.jpg" data-toggle="lightbox" data-title="Dettaglio" data-footer="Veneziane elettriche all'interno degli infissi" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/16.jpg" alt="...">
+    </a>
+
+    <a href="assets/img/1.jpg" data-toggle="lightbox" data-title="Bagno" data-footer="Unico nel suo genere" class="thumbnail" data-gallery="images" data-parent=".gallery">
+      <img src="assets/img/1.jpg" alt="...">
+    </a>
+        </div>
+      </div>
+
+
+      <div class="row marketing">
+        <div class="col-sm-6">
+          <h4>Ristrutturazione 2016</h4>
+          <p>L' attico già rinnovato nel 1999 (tetto, facciate, impianto elettrico, idraulico e giardino) e seguentemente nel 2010 (accesso, giardino, garage, cucina e salone) è appena stato ristrutturato e sono nuovi tutti gli infissi (apribili lateralmente e verticalmente, con sistema di oscuramento integrato). Il grande salone, con magnifica vista sul golfo e lago di Locarno, conta di camino con sistema di ricilco dell'aria calda.</p>
+
+          <h4>Arte</h4>
+          <p>La casa disponde di opere d'arte che spaziano dalle fotografia d'autore, alle sculture in travertino fino ad opere di arte moderna di artisti della regione.</p>
+          <h4>Domotica e infotainment</h4>
+          <p>La casa dispone di connessione internet e wifi. Un impianto multimedia completo nel salone (LCD 55 pollici, sistema dolby harman&cardon, appleTV, swisscomTV, Playstation 3) e di un sistema TV nella camere da letto (Bang & Olufsen). L'intero sistema di illuminazione dell'abitazione avviene tramite 13 lampade led wifi <a href="http>//meethue.com">Philips Hue</a>, che permette il controllo dell'illuminazione anche attraverso il prorio smart-phone. Lo studio e arredato con stand-up desk regolabile elettricamente, comprende monitor apple thunderbolt 27 pollici per connettere il proprio portatile.<br> Elettrodomestici, quali aspirapolvere dyson e ferro da stiro Laura Star sono in oltre compresi</p>
+          
+
+        </div>
+
+        <div class="col-sm-6">
+          <h4>Cucina Poggenpohl, full optional</h4>
+          <p>Cucina <a href="https://www.poggenpohl.com/">Poggenpohl</a> +segmento con serie ellettrodomestici completa <a href="http://www.vzug.com/">ZUG</a> (inclusi 2 forni combinati, di cui uno steamer e un forno autopulente pirolitico / Aria calda / grill / micro-onde, Frigo-congelatore (210 litri). Lavastoviglie. Cappa aspirante, placche termociramica, bilancia integrata nell'isola cottura. Rubinetteria con luce led. Macchina caffe nespresso e sistema per gasare l'aqua in dotazione. Armadio, pensili e cassetti scorrevoli. Luci di lavoro e d'ambiente LED. La cucina e completa di posateria, servizio piatti e bicchieri.</p>
+
+          <h4>Mobilio</h4>
+          <p>Mobili e illumazione design in tutta la casa, tra cui luci di <a href="https://www.ingo-maurer.com">Ingo Maurer</a>, <a href="http://www.cappellini.it/">Cappellini</a>, mobili <a href="http://www.kartell.com/">Kartell</a> e Nelletti.</p>
+          <h4>Health / sport</h4>
+           <p>Bici da corsa da interno kettler di ultima generazione, e parcheggio bici a a disposizione</p>
+
+          <h4>Giardino privato</h4>
+          <p>Il giardino, in cui si possono trovare statue dello scultore Giorgio Scarmi è interamente recintato, discreto, soleggiato e con un bello spazio a tappeto verde. Pensato per passare momenti in relax ed in compagnia (sole, grill, ecc.). Dispone in oltre di un sistema di irrigazione completamente automatico e di piccola zona per la coltivazione bio</p>
+          
+
+
+        </div>
+      </div>
+
+
+    <div id="" style="height:300px; overflow:hidden; border-radius:4px; padding: 4px; border: 1px solid #ddd;"><div id="map-canvas" style="height:100%; width:100%;"></div></div>
+
+    <div class="row marketing">
+        <div class="col-sm-6">
+          <div id="zona-casa">
+          <h4>Location</h4>
+          <p>Situata in zona tranquilla, verdeggiante e fuori dal traffico, è nel contempo servita di ogni comodità. A poca distanza dal centro di Locarno. In 3-5 minuti a piedi si raggiungono tutte le infrastrutture di prima necessità, e in poco di più si è al Lago o in centro a Locarno. <a href="https://www.flickr.com/search?sort=relevance&text=muralto%20lago" target="_blank">Scopri Muralto su Flickr</a></p>
+          </div>
+
+
+        </div>
+
+        <div class="col-sm-6">
+          <h4>Servizi</h4>
+          <p>A 80 metri: fermata BUS (Tenero-Locarno-Ascona)
+Nel raggio di 300 metri: Macelleria, Coop, Migros, Denner, SPA/Fitness, Parrucchiere e Farmacia. In meno di 10 minuti a piedi: Lungolago di Muralto, Municipio, Scuole, Chiese (Catt. e Rif.) Posta, Stazione FFS, Banche, ...</p>
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+        <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">
+
+
+        <h4>Condizioni contrattuali (subentrante)
+</h4>
+          <p>Cercasi subentrante per data da convenire. Contratto di locazione della durata di 5 anni con prima scadenza 2021, indicizzato con garanzia bancaria usuale. Il canone di locazione è mensile, anticipato e ammonta a <strong>3'100 CHF</strong>.
+</p>
+
+<h4>Forfait spese
+</h4>
+          <p>Le spese sono a fortfait (<strong>370 CHF/mese</strong>), quindi senza nessun ulteriore conguaglio. E compresa la manutenzione del giardino e la connessione a internet.
+
+
+</p>
+      </div>
+
+      <!-- Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Compreso nelle spese</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Riscaldamento (nafta e manutenzione impianto.)</td>
+
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Fornitura di acqua</td>
+
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fornitura della corrente elettrica</td>
+
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Uso della lavanderia incluso lavatrice e deumidificatore.
+</td>
+
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Tasse per l’ acqua, l’ eletricità, i rifiuti, le canalizzazioni e le fognature.
+
+</td>
+
+          </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Rimessa per auto in garage chiuso.
+
+          </td>
+
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Manutenzione giardino.
+
+          </td>
+
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Connessione Internet.
+
+          </td>
+
+                    </tr>
+        </tbody>
+      </table>
+    </div><br>
+
+    <div class="row">
+    <div class="col-sm-12">
+    <div class="bg-primary" style="padding:5px 20px 20px 20px; border-radius: 4px;">
+          <a name="contatto"></a>
+          <h3 id="">Contatto, visita e informazioni:</h3>
+          <h4 style="font-weight:normal; color: #fff;">Cellulare: <a href="tel:+41-79-621-5503" style="color:#fff; font-weight:bold">+41 079 621 55 03</a></h4>
+          <h4 style="font-weight:normal; color: #fff;">E-mail: <a href="mailto:studio@balestra.ch" style="color:#fff; font-weight:bold">studio@balestra.ch</a></h4>
+</div></div></div><br><br>
+      <div class="footer">
+        <p>&copy; <a href="http://nick.balestra.ch" target="_blank">Nick Balestra</a> 2016</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script src="assets/js/ekko-lightbox.min.js"></script>
+
+    <script>
+    document.getElementById("zona-casa").onmouseover = toggleBounce;
+    document.getElementById("zona-casa").onmouseout = toggleBounce;
+
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
+    function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link").click(function() {
+   scrollToAnchor('contatto');
+});
+    </script>
+
+  </body>
+</html>
